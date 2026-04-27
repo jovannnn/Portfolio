@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="stil.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Хедер и линкови во хедерот-->
+<header class="main-header">
+
+    <div class="linkovi">
+
+    <!--Navigacija-->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Почетна</a></li>
+        <li><a href="#about">За мене</a></li>
+        <li><a href="#skills">Вештини</a></li>
+        <li><a href="#education">Едукација</a></li>
+        <li><a href="#projects">Проекти</a></li>
+        <li><a href="#experience">Работно искуство</a></li>
+        <li><a href="#contact">Контакт</a></li>
+      </ul>
+
+      <!--Hamburger-->
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!--Linkovi-->
+    <div class="language-switch">
+      <a href="index.html" class="lang-btn active">EN</a>
+      <a href="index-en.html" class="lang-btn">MK</a>
+    </div>
+
+  </div>
+</header>
+
+<!-- Почетна секција -->
+<section class="hero" id="home">
+    <div class="hero-text">
+        <h1><span id="ime"></span></h1>
+        <h2><span id="profesija"></span></h2>
+        <a href="Биографија.pdf"><button class="hero-btn">Биографија</button></a>
+    </div>
+
+    <div class="slika-wrapper">
+        <img src="profilnaa.jpg" alt="Profil" class="hero-slika">
+    </div>
+</section>
+
+<!--Секција About-->
+<section class="about-me" id="about">
+    <div class="about-container">
+
+        <!--<div class="about-image">
+            <img src="profilnaa.jpg" alt="About Me">
+        </div>-->
+
+        <div class="about-text">
+            <h2>За мене</h2>
+            <h3>Веб девелопер & Веб дизајнер</h3>
+
+            <p>
+               Јас сум мотивиран и детално ориентиран веб-развивач специјализиран за креирање модерни, прилагодливи и лесни за користење веб-страници прилагодени на потребите на клиентите.</p>
+
+               <p>Имам богато искуство со frontend и backend технологии и се чувствувам удобно да градам веб-страници од нула, како и да подобрувам и оптимизирам постоечки проекти. Мојата работа е фокусирана на чист код, професионален дизајн, целосна одзивност и одлично корисничко искуство на сите уреди.</p>
+
+               <p>Она што ме издвојува е мојата способност да ја разберам визијата на клиентот и да ја трансформирам во функционално и визуелно привлечно решение. Ја ценам јасната комуникација, ги почитувам роковите и постојано се стремам да испорачам висококвалитетни, сигурни резултати.</p>
+            </p>
+
+            <a href="#contact" id="#contact" class="about-btn">Контакт</a>
+        </div>
+
+    </div>
+</section>
+
+<!--Sekcija Skills-->
+<section class="skills-section" id="skills">
+    <h2>Програмерски вештини</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card" style="--percent:90">
+            <div class="logo-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+            </div>
+            <p>Python</p>
+            <div class="skill-circle">
+                <div class="percent">90%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" style="--percent:85">
+            <div class="logo-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg">
+            </div>
+            <p>Flask</p>
+            <div class="skill-circle">
+                <div class="percent">85%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" style="--percent:95">
+            <div class="logo-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+            </div>
+            <p>HTML</p>
+            <div class="skill-circle">
+                <div class="percent">95%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" style="--percent:92">
+            <div class="logo-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+            </div>
+            <p>CSS</p>
+            <div class="skill-circle">
+                <div class="percent">92%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" style="--percent:88">
+            <div class="logo-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+            </div>
+            <p>JavaScript</p>
+            <div class="skill-circle">
+                <div class="percent">88%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" style="--percent:85">
+            <div class="logo-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
+            </div>
+            <p>Bootstrap</p>
+            <div class="skill-circle">
+                <div class="percent">85%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" style="--percent:90">
+            <div class="logo-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
+            </div>
+            <p>PHP</p>
+            <div class="skill-circle">
+                <div class="percent">90%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" style="--percent:92">
+            <div class="logo-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+            </div>
+            <p>MySQL</p>
+            <div class="skill-circle">
+                <div class="percent">92%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" style="--percent:75">
+            <div class="logo-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+            </div>
+            <p>Java</p>
+            <div class="skill-circle">
+                <div class="percent">75%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" style="--percent:70">
+            <div class="logo-box">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg">
+            </div>
+            <p>Kotlin</p>
+            <div class="skill-circle">
+                <div class="percent">70%</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Секција Education -->
+<section class="education-sekcija" id="education">
+    <div class="education-container">
+        <h2 class="education-naslov">Едукација и Сертификати</h2>
+        <p class="education-podnaslov">
+            Академска позадина и професионални квалификации
+        </p>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <span class="education-tip">ФИКТ</span>
+                    <h3>Компјутерски науки</h3>
+                    <p class="institucija">Факултет за информатички и комуникациски технологии</p>
+                    <p class="period">2020 – 2024</p>
+                    <p class="opis">
+                        Диплома за компјутерски науки и комуникациско инженерство.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <span class="education-tip">Сертификат GenAI</span>
+                    <h3>Генеративна вештачка интелигенција</h3>
+                    <p class="institucija">Програма за обука за вештачка интелигенција</p>
+                    <p class="period">2026</p>
+                    <p class="opis">
+                        Завршив програма за обука за генеративна вештачка интелигенција која опфаќаше клучни концепти и алатки. Развив практични вештини за решенија базирани на вештачка интелигенција.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <span class="education-tip">Сертификати</span>
+                    <h3>Педагошка доквалификација</h3>
+                    <p class="institucija">Педагошки факултет</p>
+                    <p class="period">2025</p>
+                    <p class="opis">
+                        Професионална квалификација за работа како наставник по информатика.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <span class="education-tip">Еразмус+</span>
+                    <h3>Меѓународна мобилност</h3>
+                    <p class="institucija">Програма за размена на студенти</p>
+                    <p class="period">2024 – 2025</p>
+                    <p class="opis">
+                        Учество во меѓународна програма за мобилност Еразмус+ со студенти од Турција.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--Секција Проекти-->
+<section class="projekti-sekcija" id="projects">
+    <h2 class="naslov-sekcija">Мои Проекти</h2>
+    <!--<p class="proekti-podnaslov" id="proekti-podnaslov">
+            Explore the application by clicking “Demo Live App 🚀”, or view the implementation on GitHub.
+        </p>-->
+
+<div class="slider">
+<button class="next" onclick="nextCard()">&#10095;</button>
+<button class="prev" onclick="prevCard()">&#10094;</button>
+
+    <div class="projekti-kontejner">
+
+        <div class="projekti-karticka">
+            <img src="proekt1.jpg" alt="Projekt 1">
+            <div class="overlay">
+                <h3>Апликација за велосипедска тура</h3>
+                <p>Веб-апликација дизајнирана да им помогне на корисниците да откриваат, истражуваат и резервираат велосипедски тури на различни локации. Изградена со HTML5, CSS3, JavaScript, Python, Flask, MySQL и поддржана од SQLite за безбедно управување со податоци.</p>
+                <a href="https://bicycle-tours.onrender.com" target="_blank">Апликација</a>
+                <a href="https://github.com/jovannnn/Bicycle-tours" target="_blank">GitHub код</a>
+            </div>
+        </div>
+
+        <div class="projekti-karticka">
+            <img src="filmovi.png" alt="Projekt 2">
+            <div class="overlay">
+                <h3>Апликација за филмови</h3>
+                <p>Оваа апликација е веб-алатка што им овозможува на корисниците да пребаруваат филмови со внесување на името на актерот. Користи TMDB API за да ги добие податоците за филмот и прикажува листа на филмови со краток опис и оценка, изградена со Python и Flask за брз и едноставен интерфејс.</p>
+                <a href="https://movie-app-h2qp.onrender.com/" target="_blank">Апликација</a>
+                <a href="https://github.com/jovannnn/Movie-App" target="_blank">GitHub код</a>
+            </div>
+        </div>
+
+        <div class="projekti-karticka">
+            <img src="hotel.png" alt="Projekt 3">
+            <div class="overlay">
+                <h3>Апликација за резервација на хотел</h3>
+                <p>Оваа веб-апликација е комплетен систем за резервации на хотели и настани, дизајниран да го поедностави процесот на резервација на настани како што се свадби, крштевки, родендени, корпоративни настани и слични пригоди. Изграден со Python, Flask, SQLite, HTML5, CSS3 и JavaScript.</p>
+                <a href="https://hotel-reservation-7hlp.onrender.com" target="_blank">Апликација</a>
+                <a href="https://github.com/jovannnn/Hotel-Reservation" target="_blank">GitHub код</a>
+            </div>
+        </div>
+
+        <div class="projekti-karticka">
+            <img src="formaa.png" alt="Projekt 4">
+            <div class="overlay">
+                <h3>Формулар за регистрација</h3>
+                <p>Едноставен и безбеден формулар за регистрација што им овозможува на корисниците да креираат сметка со внесување на нивните основни лични податоци. Формуларот овозможува лесен пристап до системот, а воедно ги заштитува корисничките податоци и обезбедува непречено искуство со регистрација. Изграден со HTML, CSS, JavaScript, PHP и MySQL.</p>
+                <a href="https://form-registration.infinityfreeapp.com/" target="_blank">Апликација</a>
+                <a href="https://github.com/jovannnn/Form-Registration" target="_blank">GitHub код</a>
+            </div>
+        </div>
+         <button class="prev" onclick="prevCard()">&#10094;</button>
+    </div>
+</section>
+
+<!-- Секција Experience -->
+<section class="education-sekcija" id="experience">
+
+    <div class="education-container">
+        <h2 class="education-naslov">Искуство</h2>
+        <p class="education-podnaslov">Работно искуство</p>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <h3>Слободен веб-развивач</h3>
+                    <p class="institucija">Самовработен</p>
+                    <p class="period">2024 – Денес</p>
+                    <p class="opis">
+                        Дизајнирање и развој на модерни респонзивни веб-страници и апликации.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <h3>Наставник по информатика</h3>
+                    <p class="institucija">Образовен сектор</p>
+                    <p class="period">2025</p>
+                    <p class="opis">
+                        Предавам информатика и техничко образование на ученици.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--Секција Footer-->
+<footer class="footer-sekcija" id="contact">
+    <div class="footer-kontejner">
+
+        <div class="footer-kolona">
+            <h3>Контакт</h3>
+            <p>Меил: belkoskijovan111@gmail.com</a></p>
+            <p>Мобилен телефон: +389 77 585 470</p>
+            <p>Локација: Струга, Македонија</p>
+        </div>
+
+        <div class="footer-kolona">
+            <h3>Социјални мрежи</h3>
+            <div class="socijalni-linkovi">
+                <a href="https://github.com/jovannnn" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/jovan-belkoski-b12240325/" target="_blank">LinkedIn</a>
+                <a href="https://www.facebook.com/jovan.belkoski.2025/" target="_blank">Facebook</a>
+            </div>
+        </div>
+
+        <div class="footer-kolona">
+            <h3>За мене</h3>
+            <p>
+                Диплома за компјутерски науки и комуникациско инженерство |
+                Веб-развивач и веб-дизајнер
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer-dolno">
+        © 2026 Јован Белкоски | Сите права се задржани
+    </div>
+</footer>
+
+    <script>
+        console.log("Portfolio page loaded");
+    </script>
+
+<!--Скрипта за вчитување на името како typing и слајдер за картичките од секција Projects-->
+<script>
+const imeTekst = "Јован Белкоски";
+const profesijaTekst = "Веб-развивач и веб-дизајнер";
+
+let i = 0;
+let j = 0;
+
+function pisiIme() {
+    if (i < imeTekst.length) {
+        document.getElementById("ime").innerHTML += imeTekst.charAt(i);
+        i++;
+        setTimeout(pisiIme, 120);
+    } else {
+        setTimeout(pisiProfesija, 500);
+    }
+}
+
+function pisiProfesija() {
+    if (j < profesijaTekst.length) {
+        document.getElementById("profesija").innerHTML += profesijaTekst.charAt(j);
+        j++;
+        setTimeout(pisiProfesija, 80);
+    }
+}
+
+window.onload = pisiIme;
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  let index = 0;
+
+  const cards = document.querySelectorAll(".projekti-karticka");
+  const total = cards.length;
+
+  function showCard(i) {
+    cards.forEach(card => card.classList.remove("active"));
+    cards[i].classList.add("active");
+  }
+
+  function nextCard() {
+    index = (index + 1) % total;
+    showCard(index);
+  }
+
+  function prevCard() {
+    index = (index - 1 + total) % total;
+    showCard(index);
+  }
+
+  window.nextCard = nextCard;
+  window.prevCard = prevCard;
+
+  showCard(index); 
+});
+
+
+const items = document.querySelectorAll(".timeline-item");
+
+window.addEventListener("scroll", () => {
+    items.forEach(item => {
+        const rect = item.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+            item.classList.add("active");
+        }
+    });
+});
+</script>
+
+<!--Skripta za procentite vo sekcijata Skills-->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const circles = document.querySelectorAll(".skill-card");
+
+    circles.forEach(card => {
+        let percent = parseInt(card.style.getPropertyValue("--percent"));
+        let circle = card.querySelector(".skill-circle");
+        let text = card.querySelector(".percent");
+
+        let start = 0;
+
+        let interval = setInterval(() => {
+            if (start >= percent) {
+                clearInterval(interval);
+            } else {
+                start++;
+
+                text.textContent = start + "%";
+
+                let deg = (start / 100) * 360;
+
+                circle.style.background = `conic-gradient(
+                    #00c6ff ${deg}deg,
+                    #e6e6e6 ${deg}deg
+                )`;
+            }
+        }, 15); 
+    });
+});
+</script>
+
+    <script src="skripta.js"></script>
+
+</body>
+</html>
